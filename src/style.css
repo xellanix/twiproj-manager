@@ -1,0 +1,33 @@
+html {
+    font-size: 18px !important;
+}
+
+#left-side > * {
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: var(--h6-font-size);
+    transition: background-color 133ms ease-out;
+}
+
+#left-side > *:hover {
+    cursor: pointer;
+    background-color: var(--ternary-background-color);
+}
+
+#left-side > *:active {
+    background-color: var(--ternary-background-color2);
+}
+
+.active-step {
+    background-color: var(--accent-color) !important;
+    color: var(--accent-button-text-color) !important;
+}
+
+.active-step:hover {
+    background-color: var(--accent-color-hover) !important;
+}
+
+.active-step:active {
+    background-color: var(--accent-color-active) !important;
+}
